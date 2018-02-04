@@ -2,7 +2,7 @@ var net = require('net');
 
 var port = process.argv[2];
 
-function addZero(value){
+function addZero(value){    
     if (value < 10){
         return ('0' + value);
     }
